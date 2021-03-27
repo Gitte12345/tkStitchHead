@@ -1,0 +1,1 @@
+file -import -type "mayaAscii"  -ignoreVersion -mergeNamespacesOnClash false -rpr "_guides" -options "v=0;"  -pr  -importTimeRange "combine" "X:/stitchhead_shd-5070/_library/assets/props/prp_mortarBucketA/rig/scenes/_guides.ma";
