@@ -1,0 +1,18 @@
+// tkRenameNodesForStitchHead.mel
+// rename nodes to match stitchhead guideline
+// thomas kutschera
+// mar 2021
+
+proc tkRenameNodesForStitchHead()
+{
+	searchReplaceNames("grp", "GRUP", "all");
+	searchReplaceNames("GRP", "GRUP", "all");
+	searchReplaceNames("ctl", "CTRL", "all");
+	searchReplaceNames("CON", "CTRL", "all");
+	searchReplaceNames("JNT", "JOIN", "all");
+	searchReplaceNames("jnt", "JOIN", "all");
+	searchReplaceNames("parentConstraint1", "DPAR", "all");
+	searchReplaceNames("root", "ROOT", "all");
+	searchReplaceNames("_C1", "_C_001", "all");
+}
+tkRenameNodesForStitchHead
